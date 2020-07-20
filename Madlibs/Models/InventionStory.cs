@@ -1,12 +1,22 @@
 namespace Madlibs.Models
-
+{
   public class InventionStory
   {
-    public string adjective1 
-    public string adjective2
-    public string adjective3 
-    public string adverb 
-    string exclamation 
-    string famousPerson1
-     string famousPerson2, string noun1, string noun2, string noun3, string noun4, string noun5, string number, string pluralNoun1, string pluralNoun2, string pluralFood, string typeOfLiquid
+    public string adjective1 { get; set; }
+    public string adjective2  { get; set; }
+    public string adverb { get; set; }
+    public string exclamation { get; set; }
+    public string famousPerson1 { get; set; }
+    public string famousPerson2 { get; set; }
+    public string noun1 { get; set; }
+    public string noun2 { get; set; }
+    public string noun3 { get; set; }
+    public string noun4 { get; set; }
+    public string noun5 { get; set; }
+    public string number { get; set; }
+    public string pluralNoun1 { get; set; }
+    public string pluralNoun2 { get; set; }
+    public string pluralFood { get; set; }
+    public string typeOfLiquid { get; set; }
   }
+}
