@@ -26,5 +26,10 @@ namespace Madlibs.Controllers
       myMadlib.Feeling = feeling;
       return View(myMadlib);
     }
+    [Route("/ChooseAMadlib")]
+    public ActionResult ChooseAMadlib ()
+    {
+      
+    }
   }
 }
