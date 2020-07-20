@@ -52,5 +52,28 @@ namespace Madlibs.Controllers
       myMadlib.PluralProfession = pluralProfession;
       return View(myMadlib);
     }
+    [Route("/MadlibInvention")]
+    public ActionResult MadlibInvention (string adjective1, string adjective2, string adjective3, string adverb, string exclamation, string famousPerson1, string famousPerson2, string noun1, string noun2, string noun3, string noun4, string noun5, string number, string pluralNoun1, string pluralNoun2, string pluralFood, string typeOfLiquid)
+    {
+      InventionStory myMadlib = new InvnentionStory();
+      myMadlib.Adjective1 = adjective1;
+      myMadlib.Adjective2 = adjective2;
+      myMadlib.Adjective3 = adjective3;
+      myMadlib.Adverb = adverb;
+      myMadlib.Exclamation = exclamation;
+      myMadlib.FamousPerson1 = famousPerson1;
+      myMadlib.FamousPerson2 = famousPerson2;
+      myMadlib.Noun1 = noun1;
+      myMadlib.Noun2 = noun2;
+      myMadlib.Noun3 = noun3;
+      myMadlib.Noun4 = noun4;
+      myMadlib.Noun5 = noun5;
+      myMadlib.Number = number;
+      myMadlib.PluralNoun1 = pluralNoun1;
+      myMadlib.PluralNoun2 = pluralNoun2;
+      myMadlib.PluralFood = pluralFood;
+      myMadlib.TypeOfLiquid = typeOfLiquid;
+      return View(myMadlib);
+    }
   }
 }
