@@ -14,6 +14,9 @@ namespace Madlibs.Controllers
     [Route("/form2")]
     public ActionResult Form2() { return View(); }
 
+    [Route("/form3")]
+    public ActionResult Form3() { return View(); }
+
     [Route("/")]
     public ActionResult ChooseAMadlib () { return View(); }
 
@@ -55,7 +58,7 @@ namespace Madlibs.Controllers
     [Route("/MadlibInvention")]
     public ActionResult MadlibInvention (string adjective1, string adjective2, string adjective3, string adverb, string exclamation, string famousPerson1, string famousPerson2, string noun1, string noun2, string noun3, string noun4, string noun5, string number, string pluralNoun1, string pluralNoun2, string pluralFood, string typeOfLiquid)
     {
-      InventionStory myMadlib = new InvnentionStory();
+      InventionStory myMadlib = new InventionStory();
       myMadlib.Adjective1 = adjective1;
       myMadlib.Adjective2 = adjective2;
       myMadlib.Adjective3 = adjective3;
@@ -74,6 +77,7 @@ namespace Madlibs.Controllers
       myMadlib.PluralFood = pluralFood;
       myMadlib.TypeOfLiquid = typeOfLiquid;
       return View(myMadlib);
+
     }
   }
 }
