@@ -1,7 +1,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Madlib
+namespace Madlibs
 {
   public class Program
   {

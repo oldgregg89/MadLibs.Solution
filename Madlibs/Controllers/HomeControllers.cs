@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using Madlib.Models;
+using Madlibs.Models;
 
-namespace FriendLetter.Controllers
+namespace Madlibs.Controllers
 {
   public class HomeController : Controller
   {
@@ -10,6 +10,7 @@ namespace FriendLetter.Controllers
 
     [Route("/form")]
     public ActionResult Form() { return View(); }
+
     [Route("/MadlibPark")]
     public ActionResult MadlibPark (string adjective1, string adjective2, string noun1, string noun2, string noun3, string verb1, string verb2, string clothing, string feeling) 
     {

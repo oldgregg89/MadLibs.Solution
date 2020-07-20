@@ -1,4 +1,4 @@
-namespace Madlib.Models
+namespace Madlibs.Models
 {
   public class ParkStory
   {
