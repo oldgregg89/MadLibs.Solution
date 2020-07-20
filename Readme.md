@@ -3,7 +3,7 @@
 #### _A class excerise in MVC through Madlibs, 2020 ver 1.0_
 
 #### By _Ian Gregg & Ian Scott_
-[Madlib]()
+[Madlib](https://github.com/Scott-Ian/MadLibs.Solution.git)
 
 ## Description
 
